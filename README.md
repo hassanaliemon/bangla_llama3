@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 
-### Training (`finetune.py`)
+### Training
 
 To finetune run the below command
 
@@ -31,7 +31,7 @@ To tweak hyperparameters:
 python finetune.py \
     --base_model 'NousResearch/Meta-Llama-3-8B' \
     --data_path 'BanglaLLM/bangla-alpaca' \
-    --output_dir './lora-alpaca
+    --output_dir './lora-alpaca' \
     --batch_size 128 \
     --micro_batch_size 4 \
     --num_epochs 3 \
